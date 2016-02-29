@@ -1,3 +1,15 @@
+.white{
+
+	position: fixed;
+	z-index: 999;
+	margin-top: -60px;
+}
+
+.parallax-container{
+
+	margin-top: 60px;
+}
+
 *{
 
 	font-family: roboto;
