@@ -15,13 +15,14 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><img src="logo.png"></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
+      <a id="logo-container" href="#" class="brand-logo"><img src="LOGO.png"></a>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#proposta">Nossa proposta</a></li>
+        <li><a href="#diferencial">Nosso diferencial</a></li>
+        <li><a href="#fazemos">O que fazemos</a></li>
+        <li><a href="#parceiros">Parceiros</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -81,6 +82,7 @@
 
         <div class="col s12 m12 l12 sobre">
           <div class="row">
+            <a name="proposta"></a>
             <div class="col s12 m6 l4">
               <img src="barra.png" class="barra">
               <span class="sobre-tit">Nossa<br>Proposta</span>
@@ -96,6 +98,7 @@
           </div>
 
           <div class="row" style="margin-top: 80px;">
+            <a name="diferencial"></a>
             <div class="col s12 m6 l4">
               <img src="barra-blue.png" class="barra">
               <span class="sobre-tit diferencial">Nosso<br>Diferencial</span>
@@ -133,6 +136,7 @@
     <div class="section">
 
       <div class="row">
+        <a name="fazemos"></a>
         <div class="col s12 center">
           <h3><i class="large material-icons">done_all</i></h3>
           <h4>O que fazemos? porque fazemos?</h4>
@@ -169,6 +173,7 @@
   <div class="container row">
       <div class="row" style="margin-top: 80px;">
         <div class="col s12 m6 l12" style="margin-bottom: 40px">
+          <a name="parceiros"></a>
           <img src="barra-blue.png" class="barra">
           <span class="sobre-tit diferencial">Nossos<br>Parceiros</span>
         </div>
@@ -233,6 +238,7 @@
 
   <footer class="page-footer cyan darken-4">
     <div class="container footer1">
+      <a name="contato"></a>
       <div class="row">
         <div class="col l12 s12" align="center">
           <h5 class="white-text">Contato</h5>
@@ -305,6 +311,33 @@
     sr.reveal('.team');
     sr.reveal('.solucao');
     sr.reveal('.irule'); 
+  </script>
+
+  <script type="text/javascript">// <![CDATA[
+    $(document).ready(function() {
+    function filterPath(string) {
+    return string
+    .replace(/^\//,'')
+    .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+    .replace(/\/$/,'');
+    }
+    $('a[href*=#]').each(function() {
+    if ( filterPath(location.pathname) == filterPath(this.pathname)
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+    var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+    var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+    if ($target) {
+    var targetOffset = $target.offset().top;
+    $(this).click(function() {
+    $('html, body').animate({scrollTop: targetOffset}, 300);
+    return false;
+    });
+    }
+    }
+    });
+    });
+    // ]]>
   </script>
 
   </body>
