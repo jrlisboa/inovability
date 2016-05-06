@@ -25,6 +25,11 @@
 	padding-top: 100px;
 }
 
+.banner-cont{
+	height: 80px !important;
+
+}
+
 img{
 
 	filter: blur(50px);
@@ -62,14 +67,14 @@ h1{
 
 .barra{
 
-	border: 2px solid #00ac4e;
+	border: 2px solid #2980B9;
 	margin-bottom: 30px;
 	margin-top: 50px;
 }
 
 .barra2{
 
-	border: 2px solid #3f55a5;
+	border: 2px solid #2C3E50;
 	margin-bottom: 18px;
 }
 
@@ -82,14 +87,14 @@ h1{
 .sobre-tit{
 
 	font-size: 40px;
-	color: #00ac4e;
+	color: #2980B9;
 	font-family: roboto light;
 	text-align: center;
 }
 
 .sobre-tit2{
 
-	color: #3f55a5;
+	color: #2C3E50;
 }
 
 
@@ -102,13 +107,15 @@ h1{
 .final-text{
 
 	padding: 20px;
-	border: 2px solid #00ac4e;
+	border: 2px solid #2C3E50;
+	padding-bottom: 80px;
+	margin-bottom: 30px;
 }
 
 .final-text span{
 
 	font-size: 18px;
-	color: #00ac4e;
+	color: #2C3E50;
 	font-family: roboto light;
 }
 
