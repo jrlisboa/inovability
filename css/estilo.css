@@ -25,14 +25,6 @@
 	padding-top: 100px;
 }
 
-<<<<<<< HEAD
-=======
-.banner-cont{
-	height: 80px !important;
-
-}
-
->>>>>>> efb714edfba0be2ec7ec40291ca0bcef1449b4c2
 img{
 
 	filter: blur(50px);
@@ -70,22 +62,14 @@ h1{
 
 .barra{
 
-<<<<<<< HEAD
 	border: 2px solid #00ac4e;
-=======
-	border: 2px solid #2980B9;
->>>>>>> efb714edfba0be2ec7ec40291ca0bcef1449b4c2
 	margin-bottom: 30px;
 	margin-top: 50px;
 }
 
 .barra2{
 
-<<<<<<< HEAD
 	border: 2px solid #3f55a5;
-=======
-	border: 2px solid #2C3E50;
->>>>>>> efb714edfba0be2ec7ec40291ca0bcef1449b4c2
 	margin-bottom: 18px;
 }
 
@@ -98,18 +82,14 @@ h1{
 .sobre-tit{
 
 	font-size: 40px;
-	color: #2980B9;
+	color: #00ac4e;
 	font-family: roboto light;
 	text-align: center;
 }
 
 .sobre-tit2{
 
-<<<<<<< HEAD
 	color: #3f55a5;
-=======
-	color: #2C3E50;
->>>>>>> efb714edfba0be2ec7ec40291ca0bcef1449b4c2
 }
 
 
@@ -122,23 +102,13 @@ h1{
 .final-text{
 
 	padding: 20px;
-<<<<<<< HEAD
 	border: 2px solid #00ac4e;
-=======
-	border: 2px solid #2C3E50;
-	padding-bottom: 80px;
-	margin-bottom: 30px;
->>>>>>> efb714edfba0be2ec7ec40291ca0bcef1449b4c2
 }
 
 .final-text span{
 
 	font-size: 18px;
-<<<<<<< HEAD
 	color: #00ac4e;
-=======
-	color: #2C3E50;
->>>>>>> efb714edfba0be2ec7ec40291ca0bcef1449b4c2
 	font-family: roboto light;
 }
 
